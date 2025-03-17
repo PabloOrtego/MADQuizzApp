@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">QuizzApp</string>
+    <string name="welcome_login">Welcome!</string>
+    <string name="hint1_login">Email</string>
+    <string name="hint2_login">Password</string>
+    <string name="forgot_login">Forgot Password?</string>
+    <string name="signup">New User? SIGNUP</string>
+    <string name="login">Login</string>
+    <string name="AppName">QuizThis</string>
+    <string name="select_your_test">Select your test</string>
+    <string name="log_out">Log out</string>
+    <string name="reminder">Set up a reminder 🕰️</string>
+</resources>

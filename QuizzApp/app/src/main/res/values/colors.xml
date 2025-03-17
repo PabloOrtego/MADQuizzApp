@@ -1,0 +1,9 @@
+<resources>
+    <color name="beige">#fbe5c3</color>
+    <color name="dark_green">#3A7D32</color>
+    <color name="darker">#0C3500</color>
+    <color name="light_green">#A3D9A5</color>
+    <color name="medium_green">#78B55E</color>
+    <color name="button_green">#10A200</color>
+    <color name="black">#000000</color>
+</resources>
