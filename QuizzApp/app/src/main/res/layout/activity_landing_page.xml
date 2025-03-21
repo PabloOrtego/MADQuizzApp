@@ -5,7 +5,7 @@
     android:orientation="vertical"
     android:gravity="center"
     android:background="@drawable/gradient_bg"
-    android:paddingTop="50dp">
+    android:paddingTop="49dp">
 
     <TextView
         android:layout_width="wrap_content"
