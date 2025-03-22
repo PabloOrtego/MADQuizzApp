@@ -9,5 +9,5 @@
     <string name="AppName">QuizThis</string>
     <string name="select_your_test">Select your test</string>
     <string name="log_out">Log out</string>
-    <string name="reminder">Set up a reminder 🕰️</string>
+    <string name="reminder">Set up a reminder</string>
 </resources>

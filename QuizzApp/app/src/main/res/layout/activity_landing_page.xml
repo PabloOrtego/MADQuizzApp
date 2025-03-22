@@ -35,6 +35,7 @@
         android:layout_marginTop="110dp">
 
         <Button
+            android:id="@+id/btnLogin"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/button_green"
@@ -43,6 +44,7 @@
             android:layout_marginTop="16dp"/>
 
         <Button
+            android:id="@+id/btnRegister"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:backgroundTint="#157300"
