@@ -1,24 +1,54 @@
 package com.example.quizzapp;
 
+import android.content.Intent;
 import android.os.Bundle;
-
-import androidx.activity.EdgeToEdge;
+import android.view.View;
+import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainPage extends AppCompatActivity {
+
+    private RecyclerView recyclerView;
+    private Adapter Adapter;
+    private List<Item> testList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main_page);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
+
+        recyclerView = findViewById(R.id.recyclerView);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+
+        testList = new ArrayList<>();
+        testList.add(new Item("Practice Test", R.drawable.img));
+        testList.add(new Item("Real Test", R.drawable.img));
+        testList.add(new Item("Test 3", R.drawable.img));
+
+        Adapter = new Adapter(testList);
+        recyclerView.setAdapter(Adapter);
+
+        Adapter.setOnItemClickListener(new Adapter.OnItemClickListener() {
+            @Override
+            public void onItemClick(Item item) {
+                if (item.getItemName().equals("Practice Test")) {
+                    startActivity(new Intent(MainPage.this, PracticeTest.class));
+                } else if (item.getItemName().equals("Real Test")) {
+                    startActivity(new Intent(MainPage.this, RealTest.class));
+                }
+            }
+        });
+
+        Button btnReminder = findViewById(R.id.btnReminder);
+        btnReminder.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainPage.this, Reminder.class));
+            }
         });
     }
 }
