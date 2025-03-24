@@ -25,7 +25,7 @@ public class Login extends AppCompatActivity {
                 String email = etEmail.getText().toString();
                 String password = etPassword.getText().toString();
 
-                if (UserData.validateLogin(email, password)) {
+                if (UserData.validateLogin(Login.this, email, password)) {
                     Intent intent = new Intent(Login.this, MainPage.class);
                     intent.putExtra("EMAIL", email);
                     startActivity(intent);

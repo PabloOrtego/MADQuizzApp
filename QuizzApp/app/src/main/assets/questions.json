@@ -1,0 +1,102 @@
+[
+  {
+    "id": "1",
+    "question": "What does a red traffic light mean?",
+    "answers": ["Go", "Slow down", "Stop", "Yield"]
+  },
+  {
+    "id": "2",
+    "question": "What should you do when approaching a stop sign?",
+    "answers": ["Slow down", "Stop completely", "Speed up", "Ignore it"]
+  },
+  {
+    "id": "3",
+    "question": "What is the speed limit in a residential area unless posted otherwise?",
+    "answers": ["25 mph", "35 mph", "45 mph", "55 mph"]
+  },
+  {
+    "id": "4",
+    "question": "What does a yellow traffic light mean?",
+    "answers": ["Stop immediately", "Speed up", "Proceed with caution", "Ignore it"]
+  },
+  {
+    "id": "5",
+    "question": "When can you turn right at a red light?",
+    "answers": ["Never", "Only when there is no sign prohibiting it", "Always", "Only in school zones"]
+  },
+  {
+    "id": "6",
+    "question": "Who has the right of way at a four-way stop?",
+    "answers": ["The first vehicle to arrive", "The biggest vehicle", "The vehicle on the left", "The last vehicle to arrive"]
+  },
+  {
+    "id": "7",
+    "question": "What should you do when you see a school bus with flashing red lights?",
+    "answers": ["Stop", "Proceed with caution", "Pass quickly", "Ignore it"]
+  },
+  {
+    "id": "8",
+    "question": "When should you use your headlights?",
+    "answers": ["Only at night", "Only in fog", "Between sunset and sunrise or when visibility is low", "Only on highways"]
+  },
+  {
+    "id": "9",
+    "question": "What is the purpose of a crosswalk?",
+    "answers": ["For pedestrians to cross", "For emergency vehicles", "For motorcycles", "For buses"]
+  },
+  {
+    "id": "10",
+    "question": "What should you do if an emergency vehicle is approaching with flashing lights?",
+    "answers": ["Speed up", "Pull over to the right and stop", "Ignore it", "Turn on your hazard lights"]
+  },
+  {
+    "id": "11",
+    "question": "What does a broken white line on the road mean?",
+    "answers": ["No passing", "You may change lanes", "Only emergency vehicles may cross", "Stop immediately"]
+  },
+  {
+    "id": "12",
+    "question": "What is the legal blood alcohol concentration (BAC) limit for most drivers?",
+    "answers": ["0.08%", "0.10%", "0.05%", "0.02%"]
+  },
+  {
+    "id": "13",
+    "question": "What should you do when your vehicle starts to skid?",
+    "answers": ["Steer in the direction of the skid", "Brake hard", "Turn the wheel in the opposite direction", "Accelerate"]
+  },
+  {
+    "id": "14",
+    "question": "What does a yield sign mean?",
+    "answers": ["Stop immediately", "Give the right of way", "Speed up", "Ignore it"]
+  },
+  {
+    "id": "15",
+    "question": "What is the minimum following distance in ideal conditions?",
+    "answers": ["2 seconds", "3 seconds", "5 seconds", "10 seconds"]
+  },
+  {
+    "id": "16",
+    "question": "When is it legal to pass another vehicle on the right?",
+    "answers": ["On a two-lane road", "When the vehicle ahead is turning left", "Never", "In school zones"]
+  },
+  {
+    "id": "17",
+    "question": "What should you do if you miss your exit on a highway?",
+    "answers": ["Stop and back up", "Make a U-turn", "Continue to the next exit", "Drive on the shoulder"]
+  },
+  {
+    "id": "18",
+    "question": "What does a solid double yellow line mean?",
+    "answers": ["You may pass with caution", "Passing is not allowed", "Only motorcycles may pass", "Pedestrians may cross"]
+  },
+  {
+    "id": "19",
+    "question": "When driving in fog, what lights should you use?",
+    "answers": ["High beams", "Low beams", "Hazard lights", "No lights"]
+  },
+  {
+    "id": "20",
+    "question": "What should you do if you approach a railroad crossing with flashing red lights?",
+    "answers": ["Stop and wait", "Proceed with caution", "Speed up", "Honk your horn"]
+  }
+]

@@ -39,7 +39,7 @@ public class Register extends AppCompatActivity {
                     return;
                 }
 
-                UserData.addUser(name, email, password);
+                UserData.addUser(Register.this, name, email, password);
                 Toast.makeText(Register.this, "Registration Successful", Toast.LENGTH_SHORT).show();
 
                 Intent intent = new Intent(Register.this, Login.class);
